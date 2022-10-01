@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: 
+    steps:
+      - uses: 
+      - uses:  # This is the action
+        with:
+          heroku_api_key: 
+          heroku_app_name:  #Must be unique in Heroku
+          heroku_email: 
